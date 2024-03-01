@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "chileanrutify"
+requires-python = ">= 3.0"
+authors = [{name = "Mihail Pozarski", email = "mihailpozarski@outlook.com"}]
+maintainers = [{name = "Mihail Pozarski", email = "mihailpozarski@outlook.com"}]
+description = "Chilean rut Python package - Chilean Rut/Run validator and formatter library"
+readme = "README.md"
+license = {text = "MIT License"}
+keywords = ["python", "library", "package", "chile", "chilean", "rut", "chilean-rut", "chilean-rut-utils", "chilean-rutify", "chilean-id"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Repository = "https://github.com/mihailpozarski/chilean-rutify-py"
